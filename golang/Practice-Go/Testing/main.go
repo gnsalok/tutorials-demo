@@ -5,7 +5,7 @@ import(
 )
 
 
-func calculate(x int)(result int){
+func Calculate(x int)(result int){
 	result = x + 2
 	return result
 } 

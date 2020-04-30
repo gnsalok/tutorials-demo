@@ -9,19 +9,17 @@
 
 // }
 
-
-
-
-//testing using Testify 
+//testing using Testify
 
 package main
 
 import (
-    "testing"
-    "github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestCalculate(t *testing.T) {
-  assert.Equal(t, calculate(2), 4)
-  assert.Equal(t,calculate(5),7)
+	assert.Equal(t, Calculate(2), 4)
+	assert.Equal(t, Calculate(5), 7)
+	assert.Equal(t, Calculate(8), 10)
 }
